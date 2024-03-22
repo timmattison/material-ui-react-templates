@@ -21,7 +21,14 @@ pnpm dev
 If you're unlucky and it tells you `next` isn't found you might have to do `pnpm install next`. But maybe not, this is
 JavaScript land after all. Everyone's system is unique and special.
 
-## Templates
+## How to run locally
+
+If you want to run and test these locally you can use my `localnext` program from my tools repo. After you install it you can do this to get your code running on localhost:8080:
+
+```bash
+pnpm build
+localnext
+```
 
 ### Blog
 
