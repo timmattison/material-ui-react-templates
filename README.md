@@ -23,11 +23,31 @@ JavaScript land after all. Everyone's system is unique and special.
 
 ## Templates
 
-### Landing page
+### Blog
+
+[Material UI Blog](material-ui-blog/README.md)
 
 #### Origin
 
-- [Material UI Landing Page](material-ui-landing-page/README.md)
+This is the [material-ui-nextjs-ts](https://github.com/mui/material-ui/tree/master/examples/material-ui-nextjs-ts)
+example combined with
+the [blog page](https://github.com/mui/material-ui/tree/v5.15.14/docs/data/material/getting-started/templates/blog)
+component.
+
+#### Modifications
+
+I've moved the blog posts into a separate directory and added links and buttons from the main page to the about page and
+the blog page.
+
+#### Fixes
+
+I added the `markdown-to-jsx` package and updated teh next.config.mjs file to properly include the Markdown files.
+
+### Landing page
+
+[Material UI Landing Page](material-ui-landing-page/README.md)
+
+#### Origin
 
 This is the [material-ui-nextjs-ts](https://github.com/mui/material-ui/tree/master/examples/material-ui-nextjs-ts)
 example combined with

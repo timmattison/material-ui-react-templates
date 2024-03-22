@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@emotion/cache':
-    specifier: ^11.11.0
+    specifier: latest
     version: 11.11.0
   '@emotion/react':
     specifier: ^11.11.4
@@ -14,9 +14,6 @@ dependencies:
   '@emotion/styled':
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.67)(react@18.2.0)
-  '@fontsource/inter':
-    specifier: ^5.0.17
-    version: 5.0.17
   '@mui/icons-material':
     specifier: ^5.15.14
     version: 5.15.14(@mui/material@5.15.14)(@types/react@18.2.67)(react@18.2.0)
@@ -24,39 +21,39 @@ dependencies:
     specifier: ^5.15.14
     version: 5.15.14(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
   '@mui/material-nextjs':
-    specifier: ^5.15.11
+    specifier: latest
     version: 5.15.11(@emotion/cache@11.11.0)(@mui/material@5.15.14)(@types/react@18.2.67)(next@14.1.4)(react@18.2.0)
-  '@mui/system':
-    specifier: ^5.15.14
-    version: 5.15.14(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.67)(react@18.2.0)
+  markdown-to-jsx:
+    specifier: ^7.4.4
+    version: 7.4.4(react@18.2.0)
   next:
-    specifier: ^14.1.4
+    specifier: latest
     version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: ^18.2.0
+    specifier: latest
     version: 18.2.0
   react-dom:
-    specifier: ^18.2.0
+    specifier: latest
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
   '@types/node':
-    specifier: ^20.11.30
+    specifier: latest
     version: 20.11.30
   '@types/react':
-    specifier: ^18.2.67
+    specifier: latest
     version: 18.2.67
   '@types/react-dom':
-    specifier: ^18.2.22
+    specifier: latest
     version: 18.2.22
   eslint:
-    specifier: ^8.57.0
+    specifier: latest
     version: 8.57.0
   eslint-config-next:
-    specifier: ^14.1.4
+    specifier: latest
     version: 14.1.4(eslint@8.57.0)(typescript@5.4.3)
   typescript:
-    specifier: ^5.4.3
+    specifier: latest
     version: 5.4.3
 
 packages:
@@ -295,10 +292,6 @@ packages:
 
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
-    dev: false
-
-  /@fontsource/inter@5.0.17:
-    resolution: {integrity: sha512-2meBGx1kt7u5LwzGc5Sz5rka6ZDrydg6nT3x6Wkt310vHXUchIywrO8pooWMzZdHYcyFY/cv4lEpJZgMD94bCg==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -2228,6 +2221,15 @@ packages:
     dependencies:
       yallist: 4.0.0
     dev: true
+
+  /markdown-to-jsx@7.4.4(react@18.2.0):
+    resolution: {integrity: sha512-R9SGyfV2zsQx25YIYImACpiQ8dQe617CNyoE1wLst4wFHtiBGG3SEtJDlI1bt9SeotIcbITbVy9+ieQFWfEoQw==}
+    engines: {node: '>= 10'}
+    peerDependencies:
+      react: '>= 0.14.0'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
