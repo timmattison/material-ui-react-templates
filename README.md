@@ -25,12 +25,20 @@ JavaScript land after all. Everyone's system is unique and special.
 
 ### Landing page
 
+#### Origin
+
 - [Material UI Landing Page](material-ui-landing-page/README.md)
 
 This is the [material-ui-nextjs-ts](https://github.com/mui/material-ui/tree/master/examples/material-ui-nextjs-ts)
 example combined with
 the [landing page](https://github.com/mui/material-ui/tree/v5.15.14/docs/data/material/getting-started/templates/landing-page)
 component.
+
+#### Modifications
+
+I've added a button and a link for both the about page and the landing page from the main page. That's it.
+
+#### Fixes
 
 I've moved the static images into the `public/static` directory and updated the paths for them and installed the Inter
 font properly.
