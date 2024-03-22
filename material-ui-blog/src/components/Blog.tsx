@@ -14,8 +14,11 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
+// @ts-ignore
 import post1 from '@/blog-posts/blog-post.1.md';
+// @ts-ignore
 import post2 from '@/blog-posts/blog-post.2.md';
+// @ts-ignore
 import post3 from '@/blog-posts/blog-post.3.md';
 
 const sections = [
